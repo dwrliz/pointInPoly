@@ -1,1 +1,3 @@
 # pointInPoly
+
+The JS script shown here is meant to be used with WebPacks to compile a module to use with Survey123. The idea is to package up JSON polygons directly into the JavaScript. The purpose of doing this is because Survey123 lacks the abilty to look outside of of the WebPacked script for exterior files. By packaging the JSON directly within the JS we are able to get those polygons into S123. WebPack actually does a pretty good job at condensing down the JSON into a smaller package for S123. The PointInPolygon function is very sensitive to topology. Please make certain to watch your topology and if possible also simplify the polygons to save on size. The final webpack should ideally be less than 800kb.
