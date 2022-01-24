@@ -1,4 +1,7 @@
-import { console, globals, fetchSync } from "./survey123/lib.js";
+// Script by William Wiskes for Utah DWR
+// Designed to iterate over polygons to find which contains a geopoint and return its name
+// Written 12/12/2021
+// Last updated 1/24/2022
 
 var pointInPolygon = require('../node_modules/point-in-polygon');
 
